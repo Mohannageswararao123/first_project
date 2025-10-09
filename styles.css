@@ -1,0 +1,41 @@
+
+
+header{
+    background-color: rgb(65, 65, 246);
+    height: 100vh;
+    font-family: monospace;
+    color:white;
+}
+body{
+    margin:0;
+
+}
+.but{
+
+    height:30px;
+    width:140px;
+    border: 1px;
+    border-radius: 5px;
+    color:black;
+    cursor:pointer;
+
+    
+         
+}
+.but:hover{
+    background-color: darkblue;
+    color:white;
+}
+header h1{
+    margin:0;
+}
+section{
+    height: 100vh;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+}
+.moh{
+    color:rgb(9, 175, 241);
+    font-size: 50px;
+}
