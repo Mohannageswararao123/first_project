@@ -7,24 +7,49 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header id="head">
 
           <h1>
         Welcome to my portfolio
 
         </h1>
-    <button class="but">about</button>
-    <button class="but"> skills </button>
-    <button class="but"> projects</button>
-    <button class="but"> contact </button>
 
+    <div class="divv">
+        <a href="#about">
+             <button class="but">about</button>
+
+
+        </a>
+        <a href="#skills">
+            <button class="but"> skills </button>
+
+
+        </a>
+        <a href="#project">
+            <button class="but"> projects</button>
+
+
+        </a>
+        <a href="#contact">
+             <button class="but"> contact </button>
+
+
+
+
+        </a>
+
+
+    
+
+    </div>
+    
 
     </header>
     <main>
 
 
 
-     <section>
+     <section id="about">
         <h2 class="moh"> Mohan Nageswara Rao</h2>
     <img src="mo.jpg" alt="my image"  height="200px" width="150px" >
 
@@ -35,11 +60,10 @@
     <i> i am passionate web deveolper with focus on web technologies  </i>
     <p> Iam currently pursing B.tech in <b> Sasi institute of technoogy and engineering tadepalligudem </b></p>
     <p> present i am learning web development from foundation courses </p>
-    <p> my goal is become a <b> passionate software developer </b> in Tech industry </p>
     
 
      </section>
-     <section>
+     <section id="skills">
         
     <h1 class="moh"> My Skills </h1>
     <ol>
@@ -56,7 +80,7 @@
     
 
 
-    <section>
+    <section id="project">
         <h1 class="moh">  My Projects </h1>
 
 
@@ -76,10 +100,10 @@
         </tr>
         <tr> 
             <td>
-                simple caluclator 
+                simple Counter
             </td>
             <td>
-                iam build the simple caluclator by using python 
+                iam build the simple counter interface usinf simple HTML,CSS,JAVASCRIPT
             </td>
         </tr>
 
@@ -88,7 +112,7 @@
 
 
     </section>
-    <section>
+    <section id="contact">
          <h1 class="moh"> Contact me </h1>
 
     <p> feel free to touch with me by using this form below : </p>
@@ -114,8 +138,9 @@
         <label for="read"> coding </label>
         <input type="checkbox">
         <br>
+        <br>
 
-        <button class="submit"> submit </button>
+        <button type="submit" class="submit"> submit </button>
         <button class="submit"type="reset"> reset </button>
 
         
@@ -123,7 +148,7 @@
 
      </form>
 
-
+ 
 
 
     </section>
@@ -135,8 +160,16 @@
    
     </main>
     <br>
+    <a href="#head">
+    <button class="top"> TOP</button>
+
+
+    </a>
+    
+    
     <footer>
-        @ mohan portfolio 
+        @mohan portfolio
+     
 
     </footer>
 

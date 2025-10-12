@@ -5,9 +5,15 @@ header{
     height: 100vh;
     font-family: monospace;
     color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 body{
     margin:0;
+    font-size: 20px;
 
 }
 .but{
@@ -18,9 +24,14 @@ body{
     border-radius: 5px;
     color:black;
     cursor:pointer;
+    margin: 15px;
+    
 
     
          
+}
+.divv{
+    align-items: center;
 }
 .but:hover{
     background-color: darkblue;
@@ -28,14 +39,62 @@ body{
 }
 header h1{
     margin:0;
+    text-align: center;
 }
 section{
     height: 100vh;
     border:1px solid black;
     border-radius: 5px;
     margin: 15px;
+    background-color: rgb(209, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .moh{
     color:rgb(9, 175, 241);
     font-size: 50px;
+}
+.submit{
+    height:30px;
+    width:140px;
+    border: 1px;
+    border-radius: 5px;
+    color:black;
+    cursor:pointer;
+    background-color: lightseagreen;
+
+
+}
+.submit:hover{
+    background-color: darkblue;
+    color:white;
+
+}
+footer{
+    height: 125px;
+    background-color:black;
+    color: lightgrey;
+
+}
+.top{
+    position: fixed;
+    bottom: 0;
+    right:10px;
+    height: 30px;
+    width:140px;
+    border: 1px;
+    border-radius: 5px;
+    color:black;
+    cursor:pointer;
+    background-color: lightseagreen;
+
+}
+.top:hover{
+    background-color: darkblue;
+    color:white;
+
+
 }
